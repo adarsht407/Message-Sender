@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_0230301_231416_resized"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:hintTextColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:id="@+id/message"
+            android:layout_gravity="center"
+            android:background="#34FFFFFF"
+            android:backgroundTint="#D5FFFFFF"
+            android:hint="Enter Your Message"
+            android:textColor="#DDFFFFFF"
+            app:hintTextColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:hintTextColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/to"
+            android:layout_gravity="center"
+            android:background="#34FFFFFF"
+            android:textAlignment="center"
+            android:backgroundTint="#D5FFFFFF"
+            android:hint="To"
+            android:textColor="#DDFFFFFF"
+            app:hintTextColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:hintTextColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#34FFFFFF"
+            android:id="@+id/from"
+            android:textAlignment="center"
+            android:backgroundTint="#D5FFFFFF"
+            android:hint="From"
+            android:textColor="#DDFFFFFF"
+            app:hintTextColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:text="Send"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>
